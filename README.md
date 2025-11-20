@@ -1,0 +1,63 @@
+# Traffic Reduction Analysis Project
+
+This project analyzes traffic data from multiple intersections to identify cong$
+
+## Purpose
+
+The purpose of this project is to reduce traffic congestion by analyzing vehicl$
+
+## How to Run the SQL Script
+            
+1. Install **SQL Server** (or use a Docker container with SQL Server).
+2. Open **Azure Data Studio** and connect to your SQL Server instance.
+3. Open the `TrafficReductionProject.sql` script in Azure Data Studio.
+4. Execute the script line by line or run all at once to create the database, t$
+5. Check the output queries and views for daily traffic summaries and congestio$
+
+## Sample Outputs / Screenshots
+                 
+Below are some example outputs from the project:
+                                                  
+
+
+
+
+
+# Traffic Reduction Analysis Project
+
+This project analyzes traffic data from multiple intersections to identify congestion patterns and propose traffic reduction strategies. The analysis is performed entirely using SQL Server.
+
+## Purpose
+
+The purpose of this project is to reduce traffic congestion by analyzing vehicle counts, average speeds, and congestion scores at various intersections. This helps city planners and traffic engineers make data-driven decisions.
+
+## How to Run the SQL Script
+
+1. Install **SQL Server** (or use a Docker container with SQL Server).
+2. Open **Azure Data Studio** and connect to your SQL Server instance.
+3. Open the `TrafficReductionProject.sql` script in Azure Data Studio.
+4. Execute the script line by line or run all at once to create the database, tables, views, and stored procedures.
+5. Check the output queries and views for daily traffic summaries and congestion scores.
+
+## Sample Outputs / Screenshots
+
+Below are some example outputs from the project:
+
+1. **Daily Traffic Summary**
+
+![Daily Traffic Summary](Screenshots/daily_traffic_summary.png)
+
+2. **Intersection Congestion Scores**
+
+![Congestion Scores](Screenshots/congestion_scores.png)
+
+> Make sure to replace the image paths with your actual screenshot files in the `Screenshots` folder.
+
+## Technologies Used
+
+- SQL Server (2019)
+- Azure Data Studio
+- Docker (optional, for SQL Server container)
+- Git & GitHub (version control)
+
+
